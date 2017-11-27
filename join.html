@@ -1,0 +1,254 @@
+
+
+<!-- Thomas Erlendson -->
+<!-- Technology and Design Demo -->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Technology & Design - Creative Services for JMU University Unions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+	<script src="thomas_erlendson.js"></script>
+
+	<style>
+		#process {
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		
+		.tab-content {
+			margin-bottom: 25px;
+			margin-top: 25px;
+		}
+		
+		.error {
+			color: red;
+		}
+	</style>
+	
+
+	</head>
+	<body>
+	<header id="header">
+		<div class="container text-center">
+			<div class="fh5co-navbar-brand">
+				<a class="fh5co-logo" href="index.html">Technology &amp; Design</a>
+			</div>
+			<nav id="fh5co-main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About TAD</a></li>
+					<li><a href="work.html">Our work</a></li>
+					<li><a href="join.html" class="active">Join the team</a></li>
+					<li><a href="contact.html">Contact TAD</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="fh5co-parallax" style="background-image: url(images/tad_images/tad_stickers.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+					<div class="fh5co-intro fh5co-table-cell">
+						<h1 class="text-center">Join TAD!</h1>
+						<p>We hire all year long; just fill out the form and we will get in contact with you!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- end: fh5co-parallax -->
+	<div class="container">
+		<form name="apply" action="submit.html" method="post" onsubmit="return formValidate()">
+			<div class="form-group">
+				<label id="nameLabel" for="name">Who are you?</label>
+				<input type="text" class="form-control" id="name">
+				<p>This can be a loaded question, but in this case we just mean your name. (Don't worry, we'll get to all those juicy bits later.)</p>
+			</div>
+			<div class="form-group">
+				<label for="nickname">What do your friends call you?</label>
+				<input type="text" class="form-control" id="nickname">
+				<p>Of course we needed your real name, but we love nicknames, too (just ask the Swag Sultan or Professor Matteyotti).</p>
+			</div>
+			<div class="form-group">
+				<label id="emailLabel" for="email">What is your (non-spam) email?</label>
+				<input type="text" class="form-control" id="email">
+				<p>This can be your dukes email or any other email--just make sure it's one that you check reliably!</p>
+			</div>
+			<div class="form-group">
+				<label id="doLabel" for="whatToDo">What do you want to do?</label>
+				<textarea class="form-control" rows="5" id="whatToDo"></textarea>
+				<p>TAD's all about helping you grow and achieve your goals. The more you let us know about what you want to do for TAD (and beyond), the better we're able to decide what we can do for you!</p>
+			</div>
+			<div class="form-group">
+				<label for="howHear">How did you hear about us?</label>
+				<textarea class="form-control" rows="5" id="howHear"></textarea>
+				<p>We are curious... who, what, when, how? We want to know.</p>
+			</div>
+			<div class="form-group">
+				<label id="availLabel" for="availability">Weekly Availability</label>
+				<textarea class="form-control" rows="5" id="availability"></textarea>
+				<p>Please let us know your generic weekly schedule and availability. We will need this to schedule a tour and interview.</p>
+			</div>
+			<div class="form-group">
+				<label for="year">What year are you?</label>
+				<select class="form-control" id="year">
+					<option>Freshman</option>
+					<option>Sophmore</option>
+					<option>Junior</option>
+					<option>Senior</option>
+					<option>Other</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="graduate">When are you expected to graduate</label>
+				<input type="text" class="form-control" id="graduate">
+			</div>
+			<div class="form-group">
+				<label id="nobotLabel" for="nobot">Prove you're human: 3+5=</label>
+				<input type="text" class="form-control" id="nobot" placeholder="8">
+				<p>Please enter a value between <b>8</b> and <b>8</b>. This helps us kep the spambots out.</p>
+			</div>
+			<button type="submit" class="btn btn-primary btn-large">Submit</button>
+		</form><!-- end form -->
+	</div>
+	<div id="process" class="container">
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#What">Our applicants</a></li>
+			<li><a data-toggle="tab" href="#How">How we hire</a></li>
+		</ul><!-- end: nav-tabs -->
+		<div class="tab-content">
+			<div id="What" class="tab-pane fade in active">
+				<h3>The Scoop:</h3>
+				<ul>
+					<li>
+						<h3>We hire all year long.</h3>
+						<p>(We are mostly waiting for the right person to come along.)</p>
+					</li>
+					<li>
+						<h3>We will ask around about you.</h3>
+						<p>We have our network of trusted advisers who help us recruit the best students for our department.</p>
+					</li>
+					<li>
+						<h3>We hire the best fit.</h3>
+						<p>We know who we are and want to get people who’ll fit into our family</p>
+					</li>
+					<li>
+						<h3>Be yourself.</h3>
+						<p>We hire genuine people. We don’t believe in masks because after a while they just come off! You are so much better at being yourself than pretending: so why settle for anything else?</p>
+					</li>
+				</ul>				
+			</div><!-- end: tab-pane -->
+			<div id="How" class="tab-pane fade in">
+				<h3>The process</h3>
+				<ol>
+					<li>
+						<h3>Tour of the Office:</h3>
+						<p>We begin by bringing you in and giving you a tour of the office. This way you are familiar with the evironment, and we are able to answer any questions that you may have.</p>
+					</li>
+					<li>
+						<h3>Big Interview:</h3>
+						<p>We put you in a room with some of our best people and ask you a lot of questions. Some are hard, some are easy — but they all matter. We never interview an applicant unless we think he or she can join our group. We really respect both your time and our time, so we put an average of about 20 hours into finding a good interview candidate. After the interview we deliberate and talk about you. We ask each other how we think you did and look at your portfolio, dissecting it, analyzing and comparing it to our expectations or competing candidates’ portfolios. We then ask you to rejoin us and we critique you on your interview. This might seem unusual, but we think you need to know how you portray yourself during interviews.</p>
+					</li>
+					<li>
+						<h3>Demo:</h3>
+						<p>Every position that creates something for TAD requires a demo. Your demo should be a demonstration of your capabilities, methodology, concept, and application of talents to a particular project or test. Remember: actions speak much louder than words. We want to see you apply what you know to what you do, and we want to see you push yourself.</p>
+					</li>
+				</ol>
+			</div><!-- end: tab-pane -->
+		</div><!-- end: tab-content -->
+	</div>
+	<footer>
+		<div id="footer" class="fh5co-border-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<p><a href="#">James Madison University</a>. All Rights Reserved. <br>800 South Main Street / Harrisonburg, Virginia 22807 <br><a href="http://www.jmu.edu/contact-us.shtml" target="_blank">Contact Us</a></p>
+						<p class="fh5co-social-icons">
+							<a href="https://twitter.com/jmuutad"><i class="icon-twitter-with-circle"></i></a>
+							<a href="https://www.facebook.com/JMUTAD/"><i class="icon-facebook-with-circle"></i></a>
+							<a href="https://www.instagram.com/jmutad/"><i class="icon-instagram-with-circle"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
